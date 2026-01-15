@@ -16,5 +16,9 @@ dependencies = [
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
+# 로컬 개발용: core를 ../core에서 가져옴
+[tool.uv.sources]
+prediction-markets = { path = "../core", editable = true }
+
 [tool.hatch.build.targets.wheel]
 packages = ["src/prediction_markets_ui"]
