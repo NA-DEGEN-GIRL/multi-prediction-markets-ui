@@ -1,2 +1,5 @@
 # Core library (from GitHub)
 prediction-markets @ git+https://github.com/NA-DEGEN-GIRL/multi-prediction-markets-core.git
+
+# UI framework
+PySide6>=6.6.0

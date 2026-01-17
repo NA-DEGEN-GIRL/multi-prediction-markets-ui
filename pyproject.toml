@@ -7,9 +7,7 @@ requires-python = ">=3.11"
 license = { text = "MIT" }
 dependencies = [
     "prediction-markets",
-    # UI framework to be determined
-    # "textual>=0.47.0",  # For TUI
-    # "nicegui>=1.4.0",   # For Web UI
+    "PySide6>=6.6.0",
 ]
 
 [build-system]
